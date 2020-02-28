@@ -18,6 +18,7 @@ const AboutMe = () => {
 					time. For the rest of my time I enjoy PC gaming, movies, reading,
 					hiking and snowboarding when I can.
 				</p>
+				<button>See my resume</button>
 			</StyledProfileText>
 		</StyledSection>
 	);

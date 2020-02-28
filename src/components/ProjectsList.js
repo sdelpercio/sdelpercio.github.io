@@ -1,8 +1,10 @@
 import React from 'react';
 
+import { StyledSection } from '../styled';
+
 const ProjectsList = ({ myProjects }) => {
 	return (
-		<div>
+		<StyledSection>
 			<h1>Projects List</h1>
 			<div>
 				{myProjects.map(project => (
@@ -21,7 +23,7 @@ const ProjectsList = ({ myProjects }) => {
 					</div>
 				))}
 			</div>
-		</div>
+		</StyledSection>
 	);
 };
 export default ProjectsList;

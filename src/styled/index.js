@@ -49,6 +49,10 @@ export const StyledProfileImg = styled.img`
 `;
 export const StyledProfileText = styled.div`
 	width: 60%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
 
 	& > h3 {
 		font-size: 1.8rem;
@@ -58,4 +62,17 @@ export const StyledProfileText = styled.div`
 	& > p {
 		font-size: 1rem;
 	}
+	& > button {
+		text-decoration: none;
+		padding: 0.5rem 1rem;
+		color: black;
+		border: 1px solid black;
+		margin-top: 2rem;
+
+		&:hover {
+			cursor: pointer;
+		}
+	}
 `;
+
+// PROJECTS LIST STYLES HERE
