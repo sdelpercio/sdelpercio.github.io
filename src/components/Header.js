@@ -1,15 +1,17 @@
 import React from 'react';
 import Forest from '../images/header-img.jpg';
 
+import { StyledHeader, StyledHeaderImg, StyledHeaderText } from '../styled';
+
 const Header = () => {
 	return (
-		<div>
-			<img src={Forest} alt='sparse forest' />
-			<div>
+		<StyledHeader>
+			<StyledHeaderImg src={Forest} alt='sparse forest' />
+			<StyledHeaderText>
 				<h1>Shawn DelPercio</h1>
 				<p>Full-Stack Web Developer</p>
-			</div>
-		</div>
+			</StyledHeaderText>
+		</StyledHeader>
 	);
 };
 export default Header;

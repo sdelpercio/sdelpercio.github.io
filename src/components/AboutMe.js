@@ -1,11 +1,13 @@
 import React from 'react';
 import Me from '../images/hawaii.jpg';
 
+import { StyledSection, StyledProfileImg, StyledProfileText } from '../styled';
+
 const AboutMe = () => {
 	return (
-		<div>
-			<img src={Me} alt='shawn' />
-			<div>
+		<StyledSection>
+			<StyledProfileImg src={Me} alt='shawn' />
+			<StyledProfileText>
 				<h3>About Me</h3>
 				<p>
 					I am a 26 year old student at Lambda School living in Baltimore,
@@ -16,8 +18,8 @@ const AboutMe = () => {
 					time. For the rest of my time I enjoy PC gaming, movies, reading,
 					hiking and snowboarding when I can.
 				</p>
-			</div>
-		</div>
+			</StyledProfileText>
+		</StyledSection>
 	);
 };
 export default AboutMe;

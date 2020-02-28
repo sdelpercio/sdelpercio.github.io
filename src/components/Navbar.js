@@ -1,8 +1,16 @@
-import React from 'react';
+import React, { useState } from 'react';
+
+import { StyledNav } from '../styled';
 
 const Navbar = () => {
+	const [scrolled, setScrolled] = useState(true);
+
+	if (scrolled === false) {
+		return;
+	}
+
 	return (
-		<nav>
+		<StyledNav>
 			<i class='fas fa-bars fa-5x'></i>
 			<h1>Shawn DelPercio</h1>
 			<div>
@@ -17,7 +25,7 @@ const Navbar = () => {
 				<i class='fab fa-linkedin fa-3x'></i>
 				<i class='fab fa-github-square fa-3x'></i>
 			</div>
-		</nav>
+		</StyledNav>
 	);
 };
 export default Navbar;

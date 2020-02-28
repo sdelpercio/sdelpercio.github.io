@@ -4,7 +4,6 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import Header from './components/Header';
 import AboutMe from './components/AboutMe';
-import ResumeButton from './components/ResumeButton';
 import ProjectsList from './components/ProjectsList';
 
 // images
@@ -41,7 +40,6 @@ function App() {
 			<Navbar />
 			<Header />
 			<AboutMe />
-			<ResumeButton />
 			<ProjectsList myProjects={myProjects} />
 		</div>
 	);
