@@ -19,28 +19,28 @@
 	(
 		xlarge: (
 			1141px,
-			1680px
+			1680px,
 		),
 		large: (
 			981px,
-			1140px
+			1140px,
 		),
 		medium: (
 			737px,
-			980px
+			980px,
 		),
 		small: (
 			481px,
-			736px
+			736px,
 		),
 		xsmall: (
 			321px,
-			480px
+			480px,
 		),
 		xxsmall: (
 			null,
-			320px
-		)
+			320px,
+		),
 	)
 );
 
@@ -994,10 +994,14 @@ ul.icons {
 ul.major-icons {
 	list-style: none;
 	padding-left: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: space-evenly;
 
 	li {
 		display: inline-block;
-		padding: 2.5em;
+		padding: 1.5em;
 		text-align: center;
 
 		.icon {
@@ -1017,6 +1021,23 @@ ul.major-icons {
 				line-height: inherit;
 			}
 		}
+	}
+}
+.myicons {
+	@include vendor('transform', 'rotate(45deg)');
+	border-radius: _size(border-radius);
+	border: solid 1px _palette(border);
+	display: inline-block;
+	height: 8em;
+	line-height: 8em;
+	margin: 0;
+	text-align: center;
+	width: 8em;
+
+	&:before {
+		@include vendor('transform', 'rotate(-45deg)');
+		display: inline-block;
+		line-height: inherit;
 	}
 }
 
@@ -1276,15 +1297,22 @@ button,
 	}
 
 	&.style2 {
-		@include dark(#333);
-		background-attachment: fixed, fixed;
-		background: radial-gradient(
-			circle,
-			rgba(47, 46, 46, 0.8704103671706264) 30%,
-			rgba(31, 167, 163, 0.8876889848812095) 100%
-		);
-		background-size: auto, cover;
+		// @include dark(#333);
+		background-attachment: fixed;
+		background-image: url('../../images/code.jpg');
+		background-size: cover;
+		background-position-y: -300px;
 	}
+}
+.text-bg {
+	color: white;
+	text-shadow: 0.05em 0 black, 0 0.05em black, -0.05em 0 black, 0 -0.05em black,
+		-0.05em -0.05em black, -0.05em 0.05em black, 0.05em -0.05em black,
+		0.05em 0.05em black;
+}
+.text-skills {
+	color: black;
+	font-weight: 800;
 }
 
 /* Header */
@@ -1541,6 +1569,13 @@ body.is-preload {
 
 	.main {
 		@include padding(5em, 3em);
+
+		&.style2 {
+			@include dark(#333);
+			background-attachment: fixed;
+			background-image: url('../../images/blue.jpg');
+			background-size: cover;
+		}
 	}
 
 	/* Header */
@@ -1639,6 +1674,13 @@ body.is-preload {
 
 	.main {
 		@include padding(3em, 1.5em);
+
+		&.style2 {
+			@include dark(#333);
+			background-attachment: fixed;
+			background-image: url('../../images/blue.jpg');
+			background-size: cover;
+		}
 	}
 
 	/* Header */
@@ -1674,6 +1716,13 @@ body.is-preload {
 
 	.main {
 		@include padding(2em, 1.5em);
+
+		&.style2 {
+			@include dark(#333);
+			background-attachment: fixed;
+			background-image: url('../../images/blue.jpg');
+			background-size: cover;
+		}
 	}
 
 	/* Header */
@@ -1722,6 +1771,13 @@ body.is-preload {
 
 	.main {
 		@include padding(2em, 1em);
+
+		&.style2 {
+			@include dark(#333);
+			background-attachment: fixed;
+			background-image: url('../../images/blue.jpg');
+			background-size: cover;
+		}
 	}
 
 	/* Header */
