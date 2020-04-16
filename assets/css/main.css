@@ -2420,9 +2420,9 @@ button:disabled,
 }
 .main.style2 {
   background-attachment: fixed;
-  background-image: url("../../images/code.jpg");
+  background-image: url("../../images/sunset.jpg");
   background-size: cover;
-  background-position-y: -300px;
+  background-position-y: -600px;
 }
 
 .text-bg {
@@ -2431,8 +2431,14 @@ button:disabled,
 }
 
 .text-skills {
-  color: black;
-  font-weight: 800;
+  color: white;
+  font-weight: 400;
+  list-style-position: inside;
+}
+
+.collaborate {
+  color: white !important;
+  font-weight: 400 !important;
 }
 
 /* Header */
@@ -2731,6 +2737,14 @@ textarea {
     font-size: 14pt;
   }
 
+  .main {
+    padding: 4em 0 2em 0;
+  }
+  .main.style2 {
+    background-attachment: scroll;
+    background-position-y: -300px;
+  }
+
   /* Header */
   #header {
     padding: 6em 0 6em 0;
@@ -2771,6 +2785,7 @@ h6 br {
   }
   .main.style2 {
     background-attachment: scroll;
+    background-position-y: 0px;
   }
 
   /* Header */
@@ -2803,87 +2818,6 @@ h6 br {
   /* Main */
   .main {
     padding: 5em 3em 3em 3em;
-  }
-  .main.style2 {
-    background-color: #333;
-    color: rgba(255, 255, 255, 0.75);
-    background-attachment: fixed;
-    background-image: url("../../images/blue.jpg");
-    background-size: cover;
-  }
-  .main.style2 a {
-    border-bottom-color: rgba(255, 255, 255, 0.5);
-  }
-  .main.style2 a:hover {
-    color: #ffffff;
-  }
-  .main.style2 h1,
-.main.style2 h2,
-.main.style2 h3,
-.main.style2 h4,
-.main.style2 h5,
-.main.style2 h6,
-.main.style2 strong,
-.main.style2 b {
-    color: #ffffff;
-  }
-  .main.style2 header p {
-    color: #ffffff;
-  }
-  .main.style2 header.major:after {
-    background: #ffffff;
-  }
-  .main.style2 input[type=submit],
-.main.style2 input[type=reset],
-.main.style2 input[type=button],
-.main.style2 button,
-.main.style2 .button {
-    box-shadow: inset 0 0 0 1px #ffffff;
-    color: #ffffff !important;
-  }
-  .main.style2 input[type=submit]:hover,
-.main.style2 input[type=reset]:hover,
-.main.style2 input[type=button]:hover,
-.main.style2 button:hover,
-.main.style2 .button:hover {
-    background-color: rgba(255, 255, 255, 0.125);
-  }
-  .main.style2 input[type=submit]:active,
-.main.style2 input[type=reset]:active,
-.main.style2 input[type=button]:active,
-.main.style2 button:active,
-.main.style2 .button:active {
-    background-color: rgba(255, 255, 255, 0.25);
-  }
-  .main.style2 input[type=submit].primary,
-.main.style2 input[type=reset].primary,
-.main.style2 input[type=button].primary,
-.main.style2 button.primary,
-.main.style2 .button.primary {
-    background-color: #ffffff;
-    box-shadow: inset 0 0 0 1px #ffffff !important;
-    color: #333 !important;
-  }
-  .main.style2 input[type=submit].primary:hover,
-.main.style2 input[type=reset].primary:hover,
-.main.style2 input[type=button].primary:hover,
-.main.style2 button.primary:hover,
-.main.style2 .button.primary:hover {
-    background-color: rgba(255, 255, 255, 0.125) !important;
-    color: #ffffff !important;
-  }
-  .main.style2 input[type=submit].primary:active,
-.main.style2 input[type=reset].primary:active,
-.main.style2 input[type=button].primary:active,
-.main.style2 button.primary:active,
-.main.style2 .button.primary:active {
-    background-color: rgba(255, 255, 255, 0.25) !important;
-  }
-  .main.style2 ul.major-icons li .icon {
-    border-color: #ffffff;
-  }
-  .main.style2 .icon.major {
-    color: #ffffff;
   }
 
   /* Header */
@@ -2964,87 +2898,6 @@ button,
   .main {
     padding: 3em 1.5em 1em 1.5em;
   }
-  .main.style2 {
-    background-color: #333;
-    color: rgba(255, 255, 255, 0.75);
-    background-attachment: fixed;
-    background-image: url("../../images/blue.jpg");
-    background-size: cover;
-  }
-  .main.style2 a {
-    border-bottom-color: rgba(255, 255, 255, 0.5);
-  }
-  .main.style2 a:hover {
-    color: #ffffff;
-  }
-  .main.style2 h1,
-.main.style2 h2,
-.main.style2 h3,
-.main.style2 h4,
-.main.style2 h5,
-.main.style2 h6,
-.main.style2 strong,
-.main.style2 b {
-    color: #ffffff;
-  }
-  .main.style2 header p {
-    color: #ffffff;
-  }
-  .main.style2 header.major:after {
-    background: #ffffff;
-  }
-  .main.style2 input[type=submit],
-.main.style2 input[type=reset],
-.main.style2 input[type=button],
-.main.style2 button,
-.main.style2 .button {
-    box-shadow: inset 0 0 0 1px #ffffff;
-    color: #ffffff !important;
-  }
-  .main.style2 input[type=submit]:hover,
-.main.style2 input[type=reset]:hover,
-.main.style2 input[type=button]:hover,
-.main.style2 button:hover,
-.main.style2 .button:hover {
-    background-color: rgba(255, 255, 255, 0.125);
-  }
-  .main.style2 input[type=submit]:active,
-.main.style2 input[type=reset]:active,
-.main.style2 input[type=button]:active,
-.main.style2 button:active,
-.main.style2 .button:active {
-    background-color: rgba(255, 255, 255, 0.25);
-  }
-  .main.style2 input[type=submit].primary,
-.main.style2 input[type=reset].primary,
-.main.style2 input[type=button].primary,
-.main.style2 button.primary,
-.main.style2 .button.primary {
-    background-color: #ffffff;
-    box-shadow: inset 0 0 0 1px #ffffff !important;
-    color: #333 !important;
-  }
-  .main.style2 input[type=submit].primary:hover,
-.main.style2 input[type=reset].primary:hover,
-.main.style2 input[type=button].primary:hover,
-.main.style2 button.primary:hover,
-.main.style2 .button.primary:hover {
-    background-color: rgba(255, 255, 255, 0.125) !important;
-    color: #ffffff !important;
-  }
-  .main.style2 input[type=submit].primary:active,
-.main.style2 input[type=reset].primary:active,
-.main.style2 input[type=button].primary:active,
-.main.style2 button.primary:active,
-.main.style2 .button.primary:active {
-    background-color: rgba(255, 255, 255, 0.25) !important;
-  }
-  .main.style2 ul.major-icons li .icon {
-    border-color: #ffffff;
-  }
-  .main.style2 .icon.major {
-    color: #ffffff;
-  }
 
   /* Header */
   #header {
@@ -3072,87 +2925,6 @@ input[type=button],
   /* Main */
   .main {
     padding: 2em 1.5em 0.1em 1.5em;
-  }
-  .main.style2 {
-    background-color: #333;
-    color: rgba(255, 255, 255, 0.75);
-    background-attachment: fixed;
-    background-image: url("../../images/blue.jpg");
-    background-size: cover;
-  }
-  .main.style2 a {
-    border-bottom-color: rgba(255, 255, 255, 0.5);
-  }
-  .main.style2 a:hover {
-    color: #ffffff;
-  }
-  .main.style2 h1,
-.main.style2 h2,
-.main.style2 h3,
-.main.style2 h4,
-.main.style2 h5,
-.main.style2 h6,
-.main.style2 strong,
-.main.style2 b {
-    color: #ffffff;
-  }
-  .main.style2 header p {
-    color: #ffffff;
-  }
-  .main.style2 header.major:after {
-    background: #ffffff;
-  }
-  .main.style2 input[type=submit],
-.main.style2 input[type=reset],
-.main.style2 input[type=button],
-.main.style2 button,
-.main.style2 .button {
-    box-shadow: inset 0 0 0 1px #ffffff;
-    color: #ffffff !important;
-  }
-  .main.style2 input[type=submit]:hover,
-.main.style2 input[type=reset]:hover,
-.main.style2 input[type=button]:hover,
-.main.style2 button:hover,
-.main.style2 .button:hover {
-    background-color: rgba(255, 255, 255, 0.125);
-  }
-  .main.style2 input[type=submit]:active,
-.main.style2 input[type=reset]:active,
-.main.style2 input[type=button]:active,
-.main.style2 button:active,
-.main.style2 .button:active {
-    background-color: rgba(255, 255, 255, 0.25);
-  }
-  .main.style2 input[type=submit].primary,
-.main.style2 input[type=reset].primary,
-.main.style2 input[type=button].primary,
-.main.style2 button.primary,
-.main.style2 .button.primary {
-    background-color: #ffffff;
-    box-shadow: inset 0 0 0 1px #ffffff !important;
-    color: #333 !important;
-  }
-  .main.style2 input[type=submit].primary:hover,
-.main.style2 input[type=reset].primary:hover,
-.main.style2 input[type=button].primary:hover,
-.main.style2 button.primary:hover,
-.main.style2 .button.primary:hover {
-    background-color: rgba(255, 255, 255, 0.125) !important;
-    color: #ffffff !important;
-  }
-  .main.style2 input[type=submit].primary:active,
-.main.style2 input[type=reset].primary:active,
-.main.style2 input[type=button].primary:active,
-.main.style2 button.primary:active,
-.main.style2 .button.primary:active {
-    background-color: rgba(255, 255, 255, 0.25) !important;
-  }
-  .main.style2 ul.major-icons li .icon {
-    border-color: #ffffff;
-  }
-  .main.style2 .icon.major {
-    color: #ffffff;
   }
 
   /* Header */
@@ -3191,87 +2963,6 @@ body {
   /* Main */
   .main {
     padding: 2em 1em 0.1em 1em;
-  }
-  .main.style2 {
-    background-color: #333;
-    color: rgba(255, 255, 255, 0.75);
-    background-attachment: fixed;
-    background-image: url("../../images/blue.jpg");
-    background-size: cover;
-  }
-  .main.style2 a {
-    border-bottom-color: rgba(255, 255, 255, 0.5);
-  }
-  .main.style2 a:hover {
-    color: #ffffff;
-  }
-  .main.style2 h1,
-.main.style2 h2,
-.main.style2 h3,
-.main.style2 h4,
-.main.style2 h5,
-.main.style2 h6,
-.main.style2 strong,
-.main.style2 b {
-    color: #ffffff;
-  }
-  .main.style2 header p {
-    color: #ffffff;
-  }
-  .main.style2 header.major:after {
-    background: #ffffff;
-  }
-  .main.style2 input[type=submit],
-.main.style2 input[type=reset],
-.main.style2 input[type=button],
-.main.style2 button,
-.main.style2 .button {
-    box-shadow: inset 0 0 0 1px #ffffff;
-    color: #ffffff !important;
-  }
-  .main.style2 input[type=submit]:hover,
-.main.style2 input[type=reset]:hover,
-.main.style2 input[type=button]:hover,
-.main.style2 button:hover,
-.main.style2 .button:hover {
-    background-color: rgba(255, 255, 255, 0.125);
-  }
-  .main.style2 input[type=submit]:active,
-.main.style2 input[type=reset]:active,
-.main.style2 input[type=button]:active,
-.main.style2 button:active,
-.main.style2 .button:active {
-    background-color: rgba(255, 255, 255, 0.25);
-  }
-  .main.style2 input[type=submit].primary,
-.main.style2 input[type=reset].primary,
-.main.style2 input[type=button].primary,
-.main.style2 button.primary,
-.main.style2 .button.primary {
-    background-color: #ffffff;
-    box-shadow: inset 0 0 0 1px #ffffff !important;
-    color: #333 !important;
-  }
-  .main.style2 input[type=submit].primary:hover,
-.main.style2 input[type=reset].primary:hover,
-.main.style2 input[type=button].primary:hover,
-.main.style2 button.primary:hover,
-.main.style2 .button.primary:hover {
-    background-color: rgba(255, 255, 255, 0.125) !important;
-    color: #ffffff !important;
-  }
-  .main.style2 input[type=submit].primary:active,
-.main.style2 input[type=reset].primary:active,
-.main.style2 input[type=button].primary:active,
-.main.style2 button.primary:active,
-.main.style2 .button.primary:active {
-    background-color: rgba(255, 255, 255, 0.25) !important;
-  }
-  .main.style2 ul.major-icons li .icon {
-    border-color: #ffffff;
-  }
-  .main.style2 .icon.major {
-    color: #ffffff;
   }
 
   /* Header */

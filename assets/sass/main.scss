@@ -1299,9 +1299,9 @@ button,
 	&.style2 {
 		// @include dark(#333);
 		background-attachment: fixed;
-		background-image: url('../../images/code.jpg');
+		background-image: url('../../images/sunset.jpg');
 		background-size: cover;
-		background-position-y: -300px;
+		background-position-y: -600px;
 	}
 }
 .text-bg {
@@ -1311,8 +1311,13 @@ button,
 		0.05em 0.05em black;
 }
 .text-skills {
-	color: black;
-	font-weight: 800;
+	color: white;
+	font-weight: 400;
+	list-style-position: inside;
+}
+.collaborate {
+	color: white !important;
+	font-weight: 400 !important;
 }
 
 /* Header */
@@ -1471,6 +1476,15 @@ body.is-preload {
 		font-size: 14pt;
 	}
 
+	.main {
+		@include padding(4em, 0);
+
+		&.style2 {
+			background-attachment: scroll;
+			background-position-y: -300px;
+		}
+	}
+
 	/* Header */
 
 	#header {
@@ -1524,6 +1538,7 @@ body.is-preload {
 
 		&.style2 {
 			background-attachment: scroll;
+			background-position-y: 0px;
 		}
 	}
 
@@ -1570,12 +1585,12 @@ body.is-preload {
 	.main {
 		@include padding(5em, 3em);
 
-		&.style2 {
-			@include dark(#333);
-			background-attachment: fixed;
-			background-image: url('../../images/blue.jpg');
-			background-size: cover;
-		}
+		// &.style2 {
+		// 	@include dark(#333);
+		// 	background-attachment: fixed;
+		// 	background-image: url('../../images/blue.jpg');
+		// 	background-size: cover;
+		// }
 	}
 
 	/* Header */
@@ -1675,12 +1690,12 @@ body.is-preload {
 	.main {
 		@include padding(3em, 1.5em);
 
-		&.style2 {
-			@include dark(#333);
-			background-attachment: fixed;
-			background-image: url('../../images/blue.jpg');
-			background-size: cover;
-		}
+		// &.style2 {
+		// 	@include dark(#333);
+		// 	background-attachment: fixed;
+		// 	background-image: url('../../images/blue.jpg');
+		// 	background-size: cover;
+		// }
 	}
 
 	/* Header */
@@ -1717,12 +1732,12 @@ body.is-preload {
 	.main {
 		@include padding(2em, 1.5em);
 
-		&.style2 {
-			@include dark(#333);
-			background-attachment: fixed;
-			background-image: url('../../images/blue.jpg');
-			background-size: cover;
-		}
+		// &.style2 {
+		// 	@include dark(#333);
+		// 	background-attachment: fixed;
+		// 	background-image: url('../../images/blue.jpg');
+		// 	background-size: cover;
+		// }
 	}
 
 	/* Header */
@@ -1772,12 +1787,12 @@ body.is-preload {
 	.main {
 		@include padding(2em, 1em);
 
-		&.style2 {
-			@include dark(#333);
-			background-attachment: fixed;
-			background-image: url('../../images/blue.jpg');
-			background-size: cover;
-		}
+		// &.style2 {
+		// 	@include dark(#333);
+		// 	background-attachment: fixed;
+		// 	background-image: url('../../images/blue.jpg');
+		// 	background-size: cover;
+		// }
 	}
 
 	/* Header */
